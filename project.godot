@@ -1,0 +1,17 @@
+; Engine configuration file.
+config_version=5
+
+[application]
+config/name="World Dominion"
+run/main_scene="res://scenes/Main.tscn"
+config/features=PackedStringArray("4.2")
+config/icon="res://icon.svg"
+
+[autoload]
+ResourceManager="*res://scripts/ResourceManager.gd"
+SaveManager="*res://scripts/SaveManager.gd"
+
+[display]
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"

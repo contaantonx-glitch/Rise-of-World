@@ -1,0 +1,6 @@
+.godot/
+.import/
+.godot/
+*.import
+**/.godot/
+**/*.translation
